@@ -17,6 +17,9 @@ app.use(express.static("public"));
 // htmlroutes
 app.use(require("./routes/htmlRoutes"));
 
+// api routes
+app.use(require("./routes/apiRoutes.js"));
+
 // connect to mongodb
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/fitness-tracker",
