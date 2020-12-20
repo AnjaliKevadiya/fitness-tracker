@@ -3,7 +3,7 @@ let db = require("../models");
 let workoutSeed = [
   {
     day: new Date().setDate(new Date().getDate() - 10),
-    exercise: [
+    exercises: [
       {
         type: "resistance",
         name: "Bicep Curl",
