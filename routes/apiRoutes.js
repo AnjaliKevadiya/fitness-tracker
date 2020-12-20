@@ -46,4 +46,15 @@ router.put("/api/workouts/:id", (req, res) => {
     });
 });
 
+// api enpoint to show charts based on workouts
+router.get("/api/workouts/range", (req, res) => {
+  Workout.find({}, (err, data) => {
+    if (err) {
+      res.status(400).json(err);
+    } else {
+      res.json(data);
+    }
+  });
+});
+
 module.exports = router;
