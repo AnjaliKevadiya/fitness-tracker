@@ -14,6 +14,9 @@ app.use(logger("dev"));
 // allow access to public folder when it runs on server(localhost)
 app.use(express.static("public"));
 
+// htmlroutes
+app.use(require("./routes/htmlRoutes"));
+
 // connect to mongodb
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/fitness-tracker",
