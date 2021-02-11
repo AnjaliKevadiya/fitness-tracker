@@ -12,6 +12,8 @@
 
 - [Installation](#installation)
 
+- [Deployed Link](#deployed-link)
+
 - [Preview](#preview)
 
 - [Questions](#questions)
@@ -51,14 +53,10 @@ The user should be able to:
 To install necessary dependencies, run the following command:
 
 ```
-npm i
-```
-
-OR
-
-```
 npm install
 ```
+
+## [Deployed Link](https://fitness-tracker-bc.herokuapp.com/?id=5fe28c2812f4ac00173ea987)
 
 ## Preview
 
